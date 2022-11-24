@@ -22,7 +22,7 @@ false
 ['$25','$150','$50','$50']
 [true,false,true,false]
 
-//Object
+//Object - Conformado por Clave y Valor
 {
     "username"= true
     "username write"= 'Miriam'
