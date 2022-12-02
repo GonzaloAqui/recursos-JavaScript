@@ -109,8 +109,89 @@ Gonz nacio en...
 Boffo nacio en...
 1984
 
-Siguiendo la convención hay que seguir las siguientes recomendaciones: 
-*Respetar la indentación y dejar un espacio de separación entre las etiquetas de Script y nuestro codigo*
+Siguiendo la convención hay que seguir las siguientes recomendaciones: ***Respetar la indentación y dejar un espacio de separación entre las etiquetas de Script y nuestro codigo***
+
+## Ahora ¿Cuantos años tiene cada uno?
+```javascript
+alert("Este mensaje ahora quiere saber ¿Cuantos años tiene cada uno?");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<h2>¿Cuantos años tiene cada uno?</h2>");
+    document.write("Packo tiene: " + (2022-1990) + "años");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Gonz tiene: " + (2022-1988) + "años");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Boffo tiene: " + (2022-1984) + "años");
+    document.write("<br>");
+    document.write("<br>");
+```
+### Resultado
+¿Cuantos años tiene cada uno?
+Packo tiene: 32años
+
+Gonz tiene: 34años
+
+Boffo tiene: 38años
+
+## Ahora comencemos con las variables
+
+Definimos a una variable con la palabra** var** y por convención la colocaremos al inicio del programa, despues de esto podemos darle otros usos.
+
+
+Caso de uso:
+Suponiendo que las edades de Packo, Gonz y Boffo quieren ser revisadas en unos años y quiza saber cual era la edad de cada uno de ellos en otro tiempo para esto vamos a definir una variable.
+
+Vamos a revisar cuantos años tenia cada uno en el año 2015, asi cambiamos el año de consulta actual (2022) por la variable year:
+
+### Codigo inicial
+```javascript
+    document.write("<h2>¿Cuantos años tiene cada uno?</h2>");
+    document.write("Packo tiene: " + (2022-1990) + "años");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Gonz tiene: " + (2022-1988) + "años");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Boffo tiene: " + (2022-1984) + "años");
+    document.write("<br>");
+    document.write("<br>");
+```
+### Resultado
+Packo tiene: 32años
+
+Gonz tiene: 34años
+
+Boffo tiene: 38años
+
+### Sustituyendo por la variable:
+```javascript
+
+    var year = 2015
+
+    document.write("<h2>¿Cuantos años tenia cada uno en el 2015?</h2>");
+    document.write("Packo tenia: " + (year-1990) + "años");
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Gonz tenia: " + (year-1988) + "años");
+    document.write("<br>");
+    document.write("<br>");
+
+    var year=2010
+
+    document.write("Boffo tenia: " + (year-1984) + "años");
+    document.write("<br>");
+    document.write("<br>");
+```
+### Resultado
+Packo tenia: 25años
+
+Gonz tenia: 27años
+
+Boffo tenia: 26años
+
+Pero hay algo extraño, la edad de boffo no es congruente. Esto se debe a que la variable se cambio de **2015** a **2010** dando otro cálculo, por lo tanto otro caso de uso.
 
 
 ![](https://img.shields.io/github/followers/GonzaloAqui?style=social)![](https://img.shields.io/github/watchers/GonzaloAqui/LaunchX-LATAM22?style=social)
