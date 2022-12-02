@@ -36,10 +36,10 @@ Para realizar operaciones quitaremos las comillas a los numeros:
     document.write("<br>")
     document.write(2022-1988)
 ```
-### Resultado
+Resultado
 La edad de Gonz es
 34
-###Resultado
+
 Para realizar un promedio:
 ```javascript
     document.write("¿Cual es el promedio de edad de Packo, Bofo y Gonz")
@@ -49,12 +49,12 @@ Para realizar un promedio:
     document.write("<br>")
     document.write(34+32+38/3)
 ```
-###Resultado erroneo:
+Resultado erroneo:
 ¿Cual es el promedio de edad de Packo, Bofo y Gonz
 Packo tiene 32
 Si Gonz tiene 34
 y Boffo 38
-78.66666666666667 //No es el rsultado correcto:
+78.66666666666667 //No es el resultado correcto:
 
 Este codigo contiene un error, por que los programas comienzan a resolver por gerarquía, primero la división, despues la multiplicación, la suma y por ultimo la resta. Ademas, aun nos falta un parentesis adicional a los de la función:
 ```javascript
@@ -68,7 +68,7 @@ Este codigo contiene un error, por que los programas comienzan a resolver por ge
     document.write("<br>")
     document.write((34+32+38)/3) //Aquí se realizo el cambio
 ```
-###Resultado
+Resultado
 ¿Cual es el promedio de edad de Packo, Bofo y Gonz
 Packo tiene 32
 Si Gonz tiene 34
@@ -79,7 +79,7 @@ Para realizar concatenación:
 ```javascript
 document.write("La suma de las edades de Packo, Gonz y Boffo es:...<br>" + (32+34+38));
 ```
-###Resultado
+Resultado
 La suma de las edades de Packo, gonz y Boffo es:...
 104
 ```javascript
@@ -99,7 +99,7 @@ La suma de las edades de Packo, gonz y Boffo es:...
     document.write("<br>");
     document.write("<br>");
 ```
-###Resultado
+Resultado
 Packo nacio en...
 1990
 
@@ -109,7 +109,8 @@ Gonz nacio en...
 Boffo nacio en...
 1984
 
-###Siguiendo la convención hay que seguir las siguientes recomendaciones: 
+Siguiendo la convención hay que seguir las siguientes recomendaciones: 
 *Respetar la indentación y dejar un espacio de separación entre las etiquetas de Script y nuestro codigo*
+
 
 ![](https://img.shields.io/github/followers/GonzaloAqui?style=social)![](https://img.shields.io/github/watchers/GonzaloAqui/LaunchX-LATAM22?style=social)
