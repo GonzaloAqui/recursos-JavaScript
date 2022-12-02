@@ -178,7 +178,7 @@ Boffo tiene: 38años
     document.write("<br>");
     document.write("<br>");
 
-    var year=2010
+    year = 2010
 
     document.write("Boffo tenia: " + (year-1984) + "años");
     document.write("<br>");
@@ -192,6 +192,9 @@ Gonz tenia: 27años
 Boffo tenia: 26años
 
 Pero hay algo extraño, la edad de boffo no es congruente. Esto se debe a que la variable se cambio de **2015** a **2010** dando otro cálculo, por lo tanto otro caso de uso.
+
+### Nota
+Si se re-atribuye la **var ** con un valor diferente entonces solo tenemos que escribir el **valor** ya que al inicio declaramos la variable.
 
 
 ![](https://img.shields.io/github/followers/GonzaloAqui?style=social)![](https://img.shields.io/github/watchers/GonzaloAqui/LaunchX-LATAM22?style=social)
