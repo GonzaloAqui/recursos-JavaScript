@@ -197,4 +197,140 @@ Pero hay algo extraño, la edad de boffo no es congruente. Esto se debe a que la
 Si se re-atribuye la **var ** con un valor diferente entonces solo tenemos que escribir el **valor** ya que al inicio declaramos la variable.
 
 
+####  Ahora vamos a definir el promedio de las edades de Jimena, Karla y Karely
+Las edades son:
+```javascript
+document.write("Jimena tiene: " + (2022-1995));
+    document.write("<br>");
+    document.write("Karla tiene: " + (2022-1990));
+    document.write("<br>");
+    document.write("Karely tiene: " + (2022-1985));
+```
+#### Resultado
+Jimena tiene: 27
+Karla tiene: 32
+Karely tiene: 37
+
+Ahora ¿Cúal es el promedio de las edades de Jimena, karla y Karely?
+```javascript
+var edadJimena = 27;
+    var edadKarla = 32;
+    var edadKarely = 37;
+
+    var nombre1 = "Jimena"
+    var nombre2 = "Karla"
+    var nombre3 = "Karely"
+
+    //Como es la primera vez que se utilizan las variables para definir las edades de cada una, entonces debemos agregar la palabra var al inicio de la variable
+
+    //promedio = (27+32+37)/3 seria lo correcto pero ahora vamos a sustituir los numeros por las nuevas variables ya declaradas para saber; que tal edad pertenece a cada mujer, variable anterior "promedio = (27+32+37)/3" y seguiremos generando el mismo resultado.
+
+    promedio = (edadJimena + edadKarla + edadKarely)/3;
+
+    document.write("El promedio de las edades de " + nombre1 + " , " + nombre2 + " y " + nombre3 + " es: " + Math.round(promedio));
+    document.write("<br>");
+    document.write("<br>");
+    document.write("Notamos que en los casos anteriores la respuesta contenia decimales y en este caso es un número entero, esto paso por que agregamos la función Math.round que redondea los numeros hacia arriba")
+    //Tambien podemos atribuirle texto a las variables no solo numeros, ahora veremos el codigo completo concatenado
+
+```
+#### Resultado
+El promedio de las edades de Jimena , Karla y Karely es: 32
+
+Notamos que en los casos anteriores la respuesta contenia decimales y en este caso es un número entero, esto paso por que agregamos la función "Math.round" sin comillas que redondea los numeros hacia arriba.
+
+## Ejercicio
+```javascript
+document.write("5 por 1 es " + 5 * 1 + "<br>");
+    document.write("5 por 2 es " + 5 * 2 + "<br>");
+    document.write("5 por 3 es " + 5 * 3 + "<br>");
+    document.write("5 por 4 es " + 5 * 4 + "<br>");
+    document.write("5 por 5 es " + 5 * 5 + "<br>");
+    document.write("5 por 6 es " + 5 * 6 + "<br>");
+    document.write("5 por 7 es " + 5 * 7 + "<br>");
+    document.write("5 por 8 es " + 5 * 8 + "<br>");
+    document.write("5 por 9 es " + 5 * 9 + "<br>");
+    document.write("5 por 10 es " + 5 * 10 + "<br>");
+```
+```html
+<p>
+5 por 1 es 5
+5 por 2 es 10
+5 por 3 es 15
+5 por 4 es 20
+5 por 5 es 25
+5 por 6 es 30
+5 por 7 es 35
+5 por 8 es 40
+5 por 9 es 45
+5 por 10 es 50
+</p>
+```
+
+¿Si queremos la tabla de 8? Tenemos que hacer la alteración de los valores en diferentes lugares. ¿Qué podemos hacer para calcular la tabla de multiplicar de otros números sin necesidad de realizar tantas alteraciones?
+
+#### Entonces:
+```javascript
+var number = 8
+
+    document.write("5 por 1 es " + number * 1 + "<br>");
+    document.write("5 por 2 es " + number * 2 + "<br>");
+    document.write("5 por 3 es " + number * 3 + "<br>");
+    document.write("5 por 4 es " + number * 4 + "<br>");
+    document.write("5 por 5 es " + number * 5 + "<br>");
+    document.write("5 por 6 es " + number * 6 + "<br>");
+    document.write("5 por 7 es " + number * 7 + "<br>");
+    document.write("5 por 8 es " + number * 8 + "<br>");
+    document.write("5 por 9 es " + number * 9 + "<br>");
+    document.write("5 por 10 es " + number * 10 + "<br>");
+```
+Para obtener el resultado de multiplicar los numeros por 8 declaramos: var number = 8
+
+```html
+<p>
+5 por 1 es 8
+5 por 2 es 16
+5 por 3 es 24
+5 por 4 es 32
+5 por 5 es 40
+5 por 6 es 48
+5 por 7 es 56
+5 por 8 es 64
+5 por 9 es 72
+5 por 10 es 80
+</p>
+```
+
+El resultado es correcto pero nuestro texto no, entonces hay que definir tambien una variable para el texto: var valor = 8
+
+```javascript
+var valor = 8
+
+    document.write(valor  + " por 1 es " + number * 1 + "<br>");
+    document.write(valor  + " por 2 es " + number * 2 + "<br>");
+    document.write(valor  + " por 3 es " + number * 3 + "<br>");
+    document.write(valor  + " por 4 es " + number * 4 + "<br>");
+    document.write(valor  + " por 5 es " + number * 5 + "<br>");
+    document.write(valor  + " por 6 es " + number * 6 + "<br>");
+    document.write(valor  + " por 7 es " + number * 7 + "<br>");
+    document.write(valor  + " por 8 es " + number * 8 + "<br>");
+    document.write(valor  + " por 9 es " + number * 9 + "<br>");
+    document.write(valor  + " por 10 es " + number * 10 + "<br>");
+```
+#### Resultado
+
+```html
+<p>
+8 por 1 es 8
+8 por 2 es 16
+8 por 3 es 24
+8 por 4 es 32
+8 por 5 es 40
+8 por 6 es 48
+8 por 7 es 56
+8 por 8 es 64
+8 por 9 es 72
+8 por 10 es 80
+</p>
+```
 ![](https://img.shields.io/github/followers/GonzaloAqui?style=social)![](https://img.shields.io/github/watchers/GonzaloAqui/LaunchX-LATAM22?style=social)
