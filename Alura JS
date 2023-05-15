@@ -1,0 +1,40 @@
+### conectores
+
+Para indicar "y" > && 
+ó > ||
+Not o no > !
+
+### Array - Arreglo
+
+```javascript
+```javascript
+const ingrediente1 = "Cebolla";
+const ingrediente2 = "Cilantro";
+const ingrediente1 = "Salsa Verde";
+const ingrediente1 = "Salsa Roja";
+const ingrediente1 = "Nopales";
+
+//Lista alfanumerica
+
+const ingredientesAdicionales = new Array ("Cebolla","Cilantro","Salsa Verde","Salsa Roja","Nopales");
+
+console.log(ingredientesAdicionales);
+
+// Lista abreviada
+
+const ingredientesAdicionales = ["Cilantro","Salsa Verde","Salsa Roja","Nopales"];
+
+//agregar ingrediente al final de la lista
+
+ingredientesAdicionales.push('Quesillo')
+console.log(ingredientesAdicionales);
+
+ ["Cilantro","Salsa Verde","Salsa Roja","Nopales","Quesillo"]
+ 
+ //agregar ingrediente al inicio de la lista
+ 
+ ingredientesAdicionales.unsift('Cebolla')
+console.log(ingredientesAdicionales);
+
+ ["Cebolla","Cilantro","Salsa Verde","Salsa Roja","Nopales","Quesillo"]
+```
