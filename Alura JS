@@ -24,17 +24,26 @@ console.log(ingredientesAdicionales);
 
 const ingredientesAdicionales = ["Cilantro","Salsa Verde","Salsa Roja","Nopales"];
 
-//agregar ingrediente al final de la lista
+//agregar ingrediente al final de la lista usar .push
 
 ingredientesAdicionales.push('Quesillo')
 console.log(ingredientesAdicionales);
 
  ["Cilantro","Salsa Verde","Salsa Roja","Nopales","Quesillo"]
  
- //agregar ingrediente al inicio de la lista
+ //agregar ingrediente al inicio de la lista usar.unshift
  
- ingredientesAdicionales.unsift('Cebolla')
+ ingredientesAdicionales.unshift('Cebolla')
 console.log(ingredientesAdicionales);
 
  ["Cebolla","Cilantro","Salsa Verde","Salsa Roja","Nopales","Quesillo"]
 ```
+### Mostrar elementos de la lista
+
+```javascript
+ ["Cebolla","Cilantro","Salsa Verde","Salsa Roja","Nopales","Quesillo"]
+ 
+ console.log(ingredientesAdicionales[2)
+```
+El resultado que obtrendremos en pantalla sera "Salsa Verde" debido a que el inicio de la numeración es cero; no uno como se acostumbra contar.
+
