@@ -48,3 +48,25 @@ console.log(ingredientesAdicionales);
 ```
 El resultado que obtrendremos en pantalla sera "Salsa Verde" debido a que el inicio de la numeración es cero; no uno como se acostumbra contar. Valores que se consulten fuera del total de items el resultado nos compartire UNDEFINED.
 
+### Funcion .splice
+
+Cuando utilizamos la función .splice podemos quitar elementos y agregar otros a la lista, .splice nos permite no solo quitar los elementos y sustituirlos; ademas esta función los sustituye en los lugares donde se quitaron los anteriores valores; de ser el caso de solo quitar un elemento solo uno sera sustituido y el otro sera eliminado,ejemplo:
+
+```javascript
+const ingrediente = "Cebolla";
+const ingrediente1 = "Cilantro";
+const ingrediente2 = "Salsa Verde";
+const ingrediente3 = "Salsa Roja";
+const ingrediente4 = "Nopales";
+const ingrediente5 = "Quesillo";
+
+ingredientesAdicionales.splice(4,5,'Cebollitas Fritas');
+console.log(ingredientesAdicionales);
+
+Cebolla
+Cilantro
+Salsa Verde
+Salsa Roja
+Cebollitas Fritas
+```
+De esta manera eliminamos 'Nopales' en su lugar colocamos 'Cebollitas fritas' y en el caso de 'Quesillo' dicho valor se elimino.
