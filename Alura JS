@@ -45,5 +45,5 @@ console.log(ingredientesAdicionales);
  
  console.log(ingredientesAdicionales[2)
 ```
-El resultado que obtrendremos en pantalla sera "Salsa Verde" debido a que el inicio de la numeración es cero; no uno como se acostumbra contar.
+El resultado que obtrendremos en pantalla sera "Salsa Verde" debido a que el inicio de la numeración es cero; no uno como se acostumbra contar. Valores que se consulten fuera del total de items el resultado nos compartire UNDEFINED.
 
