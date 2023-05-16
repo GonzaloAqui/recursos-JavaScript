@@ -8,11 +8,12 @@ Not o no > !
 
 ```javascript
 ```javascript
-const ingrediente1 = "Cebolla";
-const ingrediente2 = "Cilantro";
+
+const ingrediente = "Cilantro";
 const ingrediente1 = "Salsa Verde";
-const ingrediente1 = "Salsa Roja";
-const ingrediente1 = "Nopales";
+const ingrediente2 = "Salsa Roja";
+const ingrediente3 = "Nopales";
+
 
 //Lista alfanumerica
 
