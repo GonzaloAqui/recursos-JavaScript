@@ -1,8 +1,8 @@
-### conectores
+### conectores Lógicos
 
-Para indicar "y" > && 
-ó > ||
-Not o no > !
+Para indicar "y" > && - Se tienen que cumplir ambas condiciones
+ó > || - se tiene que cumplir una de las dos condiciones
+Not o no > ! - No se cumple ninguna condición
 
 ### Array - Arreglo
 
