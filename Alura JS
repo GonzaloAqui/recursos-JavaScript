@@ -70,3 +70,16 @@ Salsa Roja
 Cebollitas Fritas
 ```
 De esta manera eliminamos 'Nopales' en su lugar colocamos 'Cebollitas fritas' y en el caso de 'Quesillo' dicho valor se elimino.
+
+
+### Data attributes
+
+Es una clase que asignaremos a la etiqueta HTML para poder asignarle un "Method" en Javascript y realizar alguna acción en el DOM con esa etiqueta.
+
+### Method (Metodo)
+
+Cada variable que declaramos puede contener un metodo para iniciar una acción en el programa, algunos ejemplos son:
+
+document.querySelector = Selecciona la etiqueta sobre la se ejecuta una acción
+document.createElement = Se utiliza para crear etiquetas que más adelante se pueden llamar
+.classList.add = sirven para agregar una etiqueta a un elemento hijo dicha etiqueta ya se encuentra asignada en el HTML en el elemento padre
